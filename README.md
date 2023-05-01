@@ -7,6 +7,8 @@ sysctl -w vm.max_map_count=262144
 
 docker-compose up -d
 
+docker-compose start
+
 Once it's done, you can go to localhost:9000 or the <hostname>:9000 if you are using any other servers.
   
   
